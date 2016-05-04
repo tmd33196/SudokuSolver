@@ -1,5 +1,10 @@
 #include "Cell.h"
 
+Cell::Cell()
+{
+
+}
+
 void Cell::setValue(int _value)
 {
 	value = _value;

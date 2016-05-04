@@ -17,6 +17,8 @@ private:
 	void setNumPossible(int _numPossible) { numPossible = _numPossible; }
 
 public:
+	Cell();
+
 	int getValue() { return value; }
 	void setValue(int _value);
 
